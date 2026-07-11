@@ -1,0 +1,15 @@
+database:
+
+  type: SQLITE
+
+  sqlite:
+
+    file: database.db
+
+notifications:
+
+  join-alert: true
+
+gui:
+
+  title: "&4&lNON GRATA"
