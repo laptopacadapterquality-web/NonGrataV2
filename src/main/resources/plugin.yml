@@ -1,0 +1,32 @@
+name: NonGrata
+
+version: 1.0.0
+
+main: xyz.agaev.nongrata.NonGrataPlugin
+
+api-version: '1.21'
+
+author: Agaev
+
+depend:
+  - LiteBans
+
+commands:
+
+  nongrata:
+    description: Open NonGrata
+    permission: nongrata.use
+
+permissions:
+
+  nongrata.*:
+    default: op
+    children:
+      nongrata.use: true
+      nongrata.admin: true
+
+  nongrata.use:
+    default: op
+
+  nongrata.admin:
+    default: op
